@@ -1,0 +1,334 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ru"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="ru"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="ru"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="ru"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess.bak and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <script type="text/javascript" src="/assets/382ce6a/jquery.min.js"></script>
+<title>BrusBox - Site</title>
+  <meta name="description" content="">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <link rel="stylesheet" href="/css/jquery-ui-1.8.23.custom.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+  <!--[if gte IE 9]>
+  <style type="text/css">
+  .gradient { filter: none !important; }
+  </style>
+  <![endif]-->
+
+  <!-- FancyBox -->
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+  <script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js?v=2.1.3"></script>
+
+  <!-- Yandex maps -->
+  <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.full&amp;lang=ru-RU" type="text/javascript"></script>
+</head>
+<body>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Ваш браузер <em>устарел!</em> <a href="http://browsehappy.com/">Установите другой браузер</a> или <a href="http://www.google.com/chromeframe/?redirect=true">установите Google Chrome Frame</a> для того чтобы полноценно пользоваться этим сайтом.</p><![endif]-->
+  <div id="wrap">
+    <header id="main-header" class="vcard">
+      <h1><a href="/" class="ir fn org url" title="Brusbox&reg; &mdash; современные оконные системы">Brusbox&reg; &mdash; современные оконные системы</a></h1>
+
+	  <nav id="primary">
+  <ul>
+		<li>
+	  <a href="/menu/about.html" id="top-menu-1">О компании</a>
+	  	  <ul class="gradient">
+				<li><a href="/menu/about_history.html">История компании</a></li>
+				<li><a href="/menu/about_mission.html">Растем вместе с БРУСБОКС</a></li>
+				<li><a href="/menu/processing_certification.html">Дипломы и сертификаты</a></li>
+				<li><a href="/menu/processing_advertising.html">Рекламная поддержка</a></li>
+				<li><a href="/menu/lk.html">ЛИЧНЫЙ КАБИНЕТ</a></li>
+				<li><a href="/menu/windows_gallery.html">Фотогалерея</a></li>
+				<li><a href="/menu/slovar-terminov.html">Словарь терминов</a></li>
+				<li><a href="/menu/about_vacancy.html">Вакансии</a></li>
+				<li><a href="/menu/oprosnik.html">Опросник</a></li>
+			  </ul>
+	  	</li>
+		<li>
+	  <a href="/menu/windows_adv.html" id="top-menu-2">Преимущества окон BRUSBOX</a>
+	  	  <ul class="gradient">
+				<li><a href="/menu/processing.html">Производителям окон</a></li>
+				<li><a href="/menu/windows.html">Всё об окнах</a></li>
+				<li><a href="/menu/windows_pvc.html">Окна ПВХ</a></li>
+				<li><a href="/menu/windows_sound.html">Звукоизоляция</a></li>
+				<li><a href="/menu/windows_heat.html">Теплоизоляция</a></li>
+				<li><a href="/menu/windows_glass.html">Стеклопакет</a></li>
+				<li><a href="/menu/windows_usage.html">Эксплуатация окон</a></li>
+			  </ul>
+	  	</li>
+		<li>
+	  <a href="/menu/information.html" id="top-menu-3">О продукции</a>
+	  	  <ul class="gradient">
+				<li><a href="/menu/information_prof3.html">3-х камерный профиль</a></li>
+				<li><a href="/menu/information_prof4.html">4-х камерный профиль</a></li>
+				<li><a href="/menu/information_prof6.html">6-ти камерный профиль</a></li>
+				<li><a href="/menu/bb-aero.html">BRUSBOX AERO</a></li>
+				<li><a href="/menu/bb-superaero.html">BRUSBOX SUPER AERO</a></li>
+				<li><a href="/menu/brusbox-glide.html">BRUSBOX GLIDE</a></li>
+				<li><a href="/menu/information_lamprof.html">Профиль ламинированный</a></li>
+				<li><a href="/menu/information_windowsill.html">Подоконники</a></li>
+				<li><a href="/menu/information_maskprof.html">Кашированный профиль</a></li>
+				<li><a href="/menu/information_pricelist.html">ЦЕНЫ</a></li>
+				<li><a href="/menu/information_lamcolor.html">Таблица цветов ламинации</a></li>
+				<li><a href="/menu/price_laminazia.html">Цены на ламинацию</a></li>
+				<li><a href="/menu/price_dop_complect.html">Цены на доп. комплектующие</a></li>
+				<li><a href="/menu/processing_techinfo.html">Каталог переработчика</a></li>
+			  </ul>
+	  	</li>
+		<li>
+	  <a href="/news" id="top-menu-5">Новости</a>
+	  	</li>
+		<li>
+	  <a href="/menu/contacts.html" id="top-menu-6">Контакты</a>
+	  	  <ul class="gradient">
+				<li><a href="/menu/contacts_staff.html">Наши сотрудники</a></li>
+				<li><a href="/menu/contacts_dealers.html">Дилеры</a></li>
+				<li><a href="/menu/contacts_selloffice.html">Офисы продаж окон BRUSBOX</a></li>
+				<li><a href="/menu/postavshchiki.html">Поставщики</a></li>
+				<li><a href="/menu/contacts_feedback.html">Форма обратной связи</a></li>
+			  </ul>
+	  	</li>
+	  </ul>
+</nav>
+
+      <nav id="secondary">
+        <ul>
+<li class="social"><a href="http://vk.com/all_brusbox" title="ВКонтакте"><img src="/img/icons/vkontakte.png" /></a></li>
+<li class="social"><a href="http://www.youtube.com/user/BRUSBOXMOSCOW/videos" title="Youtube"><img src="/img/icons/youtube.png" /></a></li>
+
+          <li class="backoffice"><a href="http://store.brusbox.ru/Account/Login" class="gradient">Личный кабинет</a></li>
+          <li class="language"><a href="http://brusbox.com" class="gradient">English</a></li>
+        </ul>
+      </nav>
+      <p id="header-contacts">
+        <strong class="header">Контакты:</strong>
+        <span class="phone tel">+7 (495) 269-17-19</span>
+                <span class="email">all@brusbox.ru</span>
+      </p>
+      <p id="header-address">
+        <strong class="header">Адрес:</strong>
+        <span class="address adr"><span class="locality">г.&nbsp;Москва</span>, <span class="street-address">ул.&nbsp;Рябиновая, д.&nbsp;26, стр.&nbsp;2, оф.&nbsp;605</span></span>
+        <a href="/menu/contacts.html" class="map">Схема проезда</a>
+      </p>
+    </header>
+    <div role="main" id="main">
+      <section id="content">
+
+		
+<script>
+	var sPointer = 'nop'; // 'yep'
+	var bLoop = true;
+	var pageId = 0;
+	var pageData = {
+			'#1': {
+			title: "\u041e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438",
+			content: '<div class="main-menu-link"><a title="О компании" href="/menu/about.html"><img alt="О компании" src="/images/upload/home/карта_1.gif"></a></div>'
+			},
+			'#2': {
+			title: "\u041f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u043e\u043a\u043e\u043d BRUSBOX",
+			content: '<div class="main-menu-link"><a title="Преимущества окон BRUSBOX" href="/menu/windows_adv.html"><img alt="Преимущества окон BRUSBOX" src="/images/upload/home/window.jpg"></a></div>'
+			},
+			'#3': {
+			title: "\u041e \u043f\u0440\u043e\u0434\u0443\u043a\u0446\u0438\u0438",
+			content: '<div class="main-menu-link"><a title="О продукции" href="/menu/information.html"><img alt="О продукции" src="/images/upload/home/produkciya.jpg"></a></div>'
+			},
+			'#5': {
+			title: "\u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+			content: '<div class="main-menu-link"><a title="Новости" href="/menu/news.html"><img alt="Новости" src="/images/upload/home/news.jpg"></a></div>'
+			},
+			'#6': {
+			title: "\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b",
+			content: '<div class="main-menu-link"><a title="Контакты" href="/menu/contacts.html"><img alt="Контакты" src="/images/upload/home/contacts.jpg"></a></div>'
+			},
+		};
+	var fOnPageLoad = function(id) {
+		$('nav#primary a').removeClass('active');
+		$('a#top-menu-' + id).addClass('active');
+		/*if (typeof pageData[id] !== 'undefined')
+		{
+			// do something
+		}*/
+		return console.log("Current ID: " + id);
+	};
+</script>
+
+<div class="turnover">
+	<div class="turnover-prev"><span class="turnover-link"></span></div>
+	<div class="turnover-next"><span class="turnover-link"></span></div>
+	<ul class="turnover-box">
+		<li class="turnover-content turnover-active"></li>
+		<li class="turnover-content_next"></li>
+		<li class="turnover-content_prev"></li>
+	</ul>
+</div>
+
+<section id="three-columns"><!--
+--><div class="news column">
+  <header>
+	<h2>Новости</h2>
+  </header>
+  <ul id="news-list" class="hfeed">
+  	<li><article class="hentry">
+	  <footer>
+		<abbr class="published" title="2017-05-29 00:00:00"><!-- YYYYMMDDThh:mm:ss+ZZZZ -->29/05/17</abbr>
+	  </footer>
+	  <header>
+		<h3><a href="/news/2017-05-29/obuchayushchie-programmy-brusboks.html" rel="bookmark" title="Постоянная ссылка на новость &laquo;Обучающие программы БРУСБОКС&raquo;">Обучающие программы БРУСБОКС</a></h3>
+	  </header>
+	</article></li>
+  	<li><article class="hentry">
+	  <footer>
+		<abbr class="published" title="2017-05-29 00:00:00"><!-- YYYYMMDDThh:mm:ss+ZZZZ -->29/05/17</abbr>
+	  </footer>
+	  <header>
+		<h3><a href="/news/2017-05-29/aktsiya-s-29-maya-po-12-iyunya.html" rel="bookmark" title="Постоянная ссылка на новость &laquo;Акция с 29 мая по 12 июня&raquo;">Акция с 29 мая по 12 июня</a></h3>
+	  </header>
+	</article></li>
+  	<li><article class="hentry">
+	  <footer>
+		<abbr class="published" title="2017-05-24 00:00:00"><!-- YYYYMMDDThh:mm:ss+ZZZZ -->24/05/17</abbr>
+	  </footer>
+	  <header>
+		<h3><a href="/news/2017-05-24/brusbox-vasileva.html" rel="bookmark" title="Постоянная ссылка на новость &laquo;Кадровые изменения&raquo;">Кадровые изменения</a></h3>
+	  </header>
+	</article></li>
+    </ul>
+</div><!--
+--><div class="useful-links column">
+  <nav id="useful">
+	<ul id="useful-links-list">
+	  <li class="dealers"><a href="/menu/contacts_dealers.html">Дилеры</a></li>
+	  <li class="sales"><a href="/menu/contacts_selloffice.html">Офисы продаж</a></li>
+	  <li class="partners"><a href="/menu/postavshchiki.html">Партнёры</a></li>
+	</ul>
+  </nav>
+</div><!--
+--><div class="backoffice-login column">
+  <form method="POST" action="http://store.brusbox.ru/Account/Login" id="frm-backoffice-login">
+	<header>
+	  <h2>Личный кабинет</h2>
+	</header>
+	<p>
+	  <label for="frm-backoffice-login-username">Логин</label>
+	  <input type="text" name="Email" id="frm-backoffice-login-username">
+	</p>
+	<p>
+	  <label for="frm-backoffice-login-password">Пароль</label>
+	  <input type="password" name="Password" id="frm-backoffice-login-password">
+	</p>
+	<p>
+	  <input type="submit" value="Войти" id="frm-backoffice-login-submit">
+	</p>
+  </form>
+</div><!--
+--></section>
+
+		
+	  </section>
+    </div>
+
+	<footer id="main-footer" class="clearfix">
+		<div class="grid">
+			<div class="grid-col_3">
+				<p class="copyright">
+					&copy; 2000-2017 <a href="/">ООО &laquo;БРУСБОКС&raquo;</a>
+				</p>
+			</div>
+			<div class="grid-col_1">
+				<a href="http://mail.brusbox.ru">Почта</a>
+			</div>
+			<div class="grid-col_4">
+				<form action="javascript:void(0)" class="search" id="form-search">
+					<label for="form-search-query">Поиск по сайту</label>
+					<input type="text" id="form-search-query">
+				</form>
+			</div>
+			<div class="grid-col_4" style="text-align:right;">
+				<p class="print">
+					<a href="javascript:void(0)" id="print-preview">Версия для печати</a>
+				</p>
+				<p class="sitemap">
+					<a href="/sitemap.html">Карта сайта</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+  </div>
+
+  <!-- JavaScript at the bottom for fast page loading -->
+  <!-- scripts concatenated and minified via build script -->
+  <script src="/js/plugins.js"></script>
+  <script src="/js/libs/jquery-ui-1.8.23.custom.min.js"></script>
+  <script src="/js/libs/jquery.ui.datepicker-ru.js"></script>
+  <script src="/js/libs/jquery.history.js"></script>
+  <script src="/js/turnover.js"></script>
+  <script src="/js/script.js"></script>
+  <script language="JavaScript">
+	$(function () {
+		$('form#form-search').submit(function () {
+			window.location.href = 'https://www.google.com/search?q=site:brusbox.ru+' +
+				encodeURIComponent($('input#form-search-query').val());
+		});
+		$('#print-preview').click(function () {
+			window.location.href += '?print=1';
+		});
+	});
+  </script>
+
+<!-- LiveTex {literal} -->
+<script type="text/javascript">
+	var liveTex = true,
+		liveTexID = 78087,
+		liveTex_object = true;
+	(function() {
+		var lt = document.createElement('script');
+		lt.type ='text/javascript';
+		lt.async = true;
+		lt.src = '//cs15.livetex.ru/js/client.js';
+		var sc = document.getElementsByTagName('script')[0];
+	if ( sc ) sc.parentNode.insertBefore(lt, sc);
+	else document.documentElement.firstChild.appendChild(lt);
+	})();
+</script>
+<!-- LiveTex {/literal} -->
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37182773-1']);
+	if (typeof bGAStopTrack == 'undefined' || !bGAStopTrack)
+      _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+</html>

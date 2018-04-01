@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><title>Anton's page</title> 
+<meta http-equiv="Content-type" content="text/html; charset=windows-1251">
+<style>
+a {text-decoration:none;color:white;font-size:19px;height:50px;display:inline-block;margin-left:10px;}
+img {border-radius:50%;margin-left:600px;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body style='background-color:#1ca19d;color:#ffffff;'> 
+<h1 style='font-size:30px;text-align:center;'>Hello, I'm Anton Molchanov. I live in Bishkek, Kyrgyz Republic!</h1>
+<nav style='height:50px;width:100%;background-color:#226967;margin-top:20px;left:500px;right:0;position:absolute;z-index:1000;border-radius:10px;'>
+<a href='http://localhost/www.anton.kg/'>Home</a> |
+<a href="http://localhost/www.anton.kg/Bio.html"target="_blank">Biography</a> |
+<a href="http://localhost/www.anton.kg/Interests.html"target="_blank">Interests</a> |
+<a href="http://localhost/www.anton.kg/Professional.html"target="_blank">Professional</a>
+</nav>
+<h2 style='font-size:20px;margin-top:110px;margin-left:612px;'>I'm 26 here</h2>
+<img id="photo"src="http://localhost/www.anton.kg/26 years old.jpeg" alt="Me" height="200" width="125">
+<button onclick="myFunction()" style='background-color:#fafe00;color:#000000;border:none;text-align:center;text-decoration:none;border-radius:10px;margin-top:10px;margin-left:586px;display:inline-block;'>Click to hide/show photo</button>
+<script>
+function myFunction() {
+ var x = document.getElementById('photo');
+ if (x.style.display === 'none') {
+     x.style.display = 'block' ;
+	} else {
+	 x.style.display = 'none' ;
+	}
+}
+</script>
+</body>
+<footer><div style='width:100%;height:50px;background-color:#093333;text-align:center;padding-top:25px;padding-bottom:3px;position:absolute;left:0;bottom:0;'>Property of Anton Molchanov. All rights reserved ©</div></footer>
+</html>
